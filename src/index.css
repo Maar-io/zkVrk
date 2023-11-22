@@ -41,3 +41,7 @@ a:hover {
   color: #AFEEEE; /* Light Turquoise on hover */
   text-decoration: underline; /* Underline on hover */
 }
+
+.eth-background {
+  background-color: rgb(16, 16, 112);
+}
