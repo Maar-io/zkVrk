@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #AFEEEE; /* Light Turquoise */
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+table {
+  background-color: #023d3d; /* Dark Turquoise */
+  color: #AFEEEE; /* Light text color */
+  border-radius: 10px; /* Oval ends */
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); /* Shadow effect */
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Adjust this value as needed */
+}
+
+table tr {
+  border-radius: 10px; /* Oval ends for rows */
+}
+
+table th, table td {
+  padding: 15px; /* Padding for table data */
+}
+
+a {
+  color: #008080; /* Dark Turquoise */
+  text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+  color: #AFEEEE; /* Light Turquoise on hover */
+  text-decoration: underline; /* Underline on hover */
 }
